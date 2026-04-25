@@ -37,14 +37,14 @@ Complete 2026 forecast at 15-minute resolution (35,040 intervals)
 | Column | Description | Unit | Range |
 |--------|-------------|------|-------|
 | `timestamp` | Timestamp (UTC+1) | DateTime | 2026-01-01 00:00 to 2026-12-31 23:45 |
-| `da_price_forecast` | Day-Ahead price | €/MWh | ~€60-150/MWh |
-| `idc_mid_forecast` | Intraday mid-price | €/MWh | ~€60-150/MWh |
-| `idc_bid_forecast` | Intraday bid (sell) | €/MWh | DA × 0.99 |
-| `idc_ask_forecast` | Intraday ask (buy) | €/MWh | DA × 1.01 |
-| `fcr_p50_block` | FCR price (4h blocks) | €/MW/h | ~€8-18/MW/h |
-| `afrr_cap_pos_p50` | aFRR positive capacity | €/MW/h | ~€12-28/MW/h |
-| `afrr_cap_neg_p50` | aFRR negative capacity | €/MW/h | ~€8-20/MW/h |
-| `rebap_p50_sample` | aFRR energy (reBAP) | €/MWh | ~€70-130/MWh |
+| `da_price_forecast` | Day-Ahead price | €/MWh |
+| `idc_mid_forecast` | Intraday mid-price | €/MWh | 
+| `idc_bid_forecast` | Intraday bid (sell) | €/MWh |
+| `idc_ask_forecast` | Intraday ask (buy) | €/MWh |
+| `fcr_p50_block` | FCR price (4h blocks) | €/MW/h | 
+| `afrr_cap_pos_p50` | aFRR positive capacity | €/MW/h | 
+| `afrr_cap_neg_p50` | aFRR negative capacity | €/MW/h |
+| `rebap_p50_sample` | aFRR energy (reBAP) | €/MWh |
 
 #### **Sheet 2: `Forecast_Metadata`**
 Model configuration, validation statistics, and assumptions
