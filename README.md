@@ -8,7 +8,7 @@
 This forecasting framework generates comprehensive electricity price forecasts for the German market across multiple revenue streams:
 
 ### **Markets Covered:**
-- ✅ **Day-Ahead (DA)** - EPEX Spot auction prices (€/MWh)
+- ✅ **Day-Ahead (DA)** - Spot auction prices (€/MWh)
 - ✅ **Intraday Continuous (IDC)** - Short-term trading (bid/ask/mid)
 - ✅ **FCR (Frequency Containment Reserve)** - Primary frequency regulation (€/MW/h)
 - ✅ **aFRR (automatic Frequency Restoration Reserve)** - Secondary reserve capacity & energy (€/MW/h, €/MWh)
