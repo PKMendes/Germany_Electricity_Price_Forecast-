@@ -211,10 +211,6 @@ XGBOOST_PARAMS = {
 START_YEAR = 2026
 END_YEAR = 2050
 
-BASE_DA_PRICE_2026 = 90.0   # EUR/MWh starting point
-BASE_FCR_PRICE_2026 = 12.96  # EUR/MW/h starting point
-BASE_AFRR_POS_2026 = 19.79   # EUR/MW/h starting point
-BASE_AFRR_NEG_2026 = 13.36   # EUR/MW/h starting point
 ```
 
 ---
